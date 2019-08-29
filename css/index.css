@@ -1,0 +1,258 @@
+/*中间分类模块开始*/
+.grid{
+	height: 480px;
+	/*background-color: pink;*/
+}
+/*中间分类模块结束*/
+.grid-clo1{
+	width:190px;
+	height: 100%;
+	background-color: rgb(254,254,254);
+	/*line-height: 20px;*/
+	color: rgb(98,98,98);
+/*	padding-left: 20px;*/
+	font-size: 12px;
+}
+.grid-clo1 a{
+		font-weight: 500;
+		font-size: 14px;
+		margin:0 3px;
+		color: #626262;
+}
+.grid-clo1 a:hover{
+	color: #F10215;
+}
+.grid-clo1 ul{
+	padding: 15px 0;
+}
+.grid-clo1 ul li{
+	padding-left: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+.grid-clo1 li:hover{
+	background-color: rgb(210,210,210);
+}
+.grid-clo2{
+	width: 790px;
+	height: 100%;
+	background-color: rgb(240,243,239);
+	margin: 0 10px;
+}
+.grid-clo2-l{
+	position: relative;
+}
+.grid-clo2-r img{
+	display: block;
+	margin-bottom: 10px;
+}
+.arrow-l{
+	background:rgba(0,0,0,0.3);
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	left: 0;top: 50%;
+	transform: translateY(-50%);
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+	font-family: arial;
+	font-weight: normal;
+	vertical-align
+	/*color: rgba(255,255,255,0.6);*/
+}
+.arrow-r{
+	background:rgba(0,0,0,0.3);
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	right: 0;top: 50%;
+	transform: translateY(-50%);
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+	font-family: arial;
+	font-weight: normal;
+	vertical-align
+	/*color: rgba(255,255,255,0.6);*/
+}
+.arrow-l .arrow-r :hover{
+	background-color:#666666 ;
+}
+/*.grid-clo2 img{
+	margin-bottom: 10px;
+}*/
+.circle{
+	width: 175px;
+	height: 20px;
+	/*background:rgba(255,255,255,0.6);*/
+	position: absolute;
+	left: 45px;
+	bottom: 20px;
+}
+.circle li{
+	height: 11px;
+	width: 11px;
+	border-radius: 50px;
+	background:rgba(255,255,255,0.6);
+	float: left;
+	margin:4px;
+	cursor: pointer;
+}
+.circle :hover{
+	background-color: #FFFFFF;
+}
+.grid-clo3{
+	width: 190px;
+	height: 100%;
+	/*background-color: greenyellow;*/
+}
+.login{
+	height: 150px;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	/*padding: 15px;*/
+	padding-top: 50px;
+	height: 100px;
+	text-align: center;
+	position: relative;
+}
+.login p{
+	margin: 0;
+	padding: 0;
+}
+.login-t{
+	font-size: 12px;
+	color:#999999;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 20px;
+}
+.login-t p{
+	font-size: 12px;
+	color:#999999;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 20px;
+}
+.login-t a{
+	font-size: 13px;
+	color:rgb(103,103,103); 
+}
+.login-t a:hover{
+	color: #F10215;
+}
+.login img{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	position: absolute;
+	top: -20px; left: 60px;
+}
+.login-b{
+	margin-top: 15px;
+}
+.login-b-l{
+	display: inline-block;
+	height: 20px;
+	width: 70px;
+	background-color: rgb(238,238,238);
+	border-radius: 13px;
+	margin-right: 3px;
+	text-align: center;
+	line-height: 20px;
+	color: #F10215;
+}
+.login-b-r{
+	display: inline-block;
+	height: 20px;
+	width: 70px;
+	background-color: rgb(54,54,52);
+	border-radius: 13px;
+	margin-right: 3px;
+	text-align: center;
+	line-height: 20px;
+	color: rgb(229,215,144);
+}
+.login-b a:hover{
+	background-color: #F10215;
+	color: #FFFFFF;
+}
+.news{
+	height: 123px;
+	border-bottom: 1px solid #CCCCCC;
+	/*background-color: skyblue;*/
+	padding: 7px 13px 0;
+	background-color: #FFFFFF;
+}
+.new-t{
+	height: 19px;
+	
+}
+.new-t span{
+	color: rgb(30,30,30);
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+}
+.new-t a{
+	float: right;
+	text-align: center;
+}
+.news-b span{
+	display: inline-block;
+	height: 15px;
+	width: 35px;
+	color: #FFFFFF;
+	font-size: 12px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 15px;
+	background-color:rgb(228,127,127);
+	margin-right: 3px;
+}
+.news-b a{
+	color: rgb(102,102,102);
+	font-size: 12px;
+}
+.news-b a :hover{
+	color: #F10215;
+}
+/*.news-b ul li a :hover{
+	color: #F10215;
+}*/
+.news-b ul{
+	margin-top: 5px;
+}
+.news-b li{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-bottom: 2px;
+}
+.expand{
+	height: 190px;
+	border-bottom: 1px solid #CCCCCC;
+	/*background-color: greenyellow;*/
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+.expand ul{
+	width: 195px;
+	height: 165px;
+	margin: 10px 0 0 10px;
+}
+.expand ul li{
+	float: left;
+	width: 42px;
+	height: 55px;
+	border-right:  1px solid  #000000;
+	border-bottom:  1px solid  #000000;
+}
+.expand li a{
+	display: block;
+	text-align: center;
+	line-height: 55px;
+}
